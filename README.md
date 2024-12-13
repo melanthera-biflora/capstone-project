@@ -50,6 +50,18 @@ Ensure you have the following installed:
 
 |-- README.md           # Project documentation
 ```
+## Model Performance Comparison
+
+| **Model**                     | **RMSE (Train)** | **MAE (Train)** | **R² (Train)** | **MAPE (Train)** | **RMSE (Test)** | **MAE (Test)** | **R² (Test)** | **MAPE (Test)** |
+|--------------------------------|------------------|-----------------|----------------|------------------|-----------------|----------------|---------------|-----------------|
+| Decision Tree (PANGAEA)        | 1.309           | 0.948           | 0.763          | 6.15%            | 1.319           | 0.952          | 0.759         | 6.19%           |
+| **Random Forest (PANGAEA)**    | **0.573**       | **0.373**       | **0.955**      | **2.41%**        | **0.582**       | **0.378**      | **0.953**     | **2.46%**       |
+| XGBoost (PANGAEA)              | 0.860           | 0.651           | 0.898          | 4.17%            | 0.876           | 0.661          | 0.893         | 4.25%           |
+| Stack (PANGAEA)                | 0.576           | 0.376           | 0.954          | 2.43%            | 0.585           | 0.381          | 0.952         | 2.47%           |
+| Decision Tree (USGS)           | 2.478           | 1.785           | 0.594          | 7.30%            | 2.526           | 1.849          | 0.584         | 7.48%           |
+| **Random Forest (SFB)**        | **1.82**        | **1.21**        | **0.77**       | **4.98%**        | **1.32**        | **1.575**      | **0.74**      | **5.34%**       |
+| XGBoost (USGS)                 | 1.956           | 1.366           | 0.747          | 5.61%            | 2.086           | 1.464          | 0.716         | 5.97%           |
+| Stack (USGS)                   | 1.893           | 1.301           | 0.763          | 5.31%            | 2.060           | 1.422          | 0.723         | 5.75%           |
 
 ## Contributing
 Contributions are welcome! Please submit issues or pull requests to suggest improvements or report bugs.
