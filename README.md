@@ -1,6 +1,6 @@
-# Salinity Intrusion Prediction Using MODIS Data
+# Advancing Salinity Intrusion Low-cost Monitoring in Estuarine Areas Using Temporal and MODIS Satellite Data: A Machine Learning Approach
 
-This repository contains the code and resources for the Capstone Project titled **"Utilizing MODIS Data Retrieved from Sentinel Hub API to Predict Salinity Intrusion in San Francisco Bay & Inner Kiel Fjord"**.
+This repository contains the code and resources for the Capstone Project titled **"Advancing Salinity Intrusion Low-cost Monitoring in EstuarineAreas Using Temporal and MODIS Satellite Data: A Machine Learning Approach"**.
 
 ## Overview
 Salinity intrusion, the movement of saline water into freshwater systems, is a critical environmental issue influenced by climate change and human activities. This project leverages MODIS remote sensing data retrieved from the Sentinel Hub API to model and predict salinity intrusion in two study regions:
