@@ -20,6 +20,22 @@ The aim is to develop a predictive framework that can support decision-making in
 - **MODIS**: Moderate Resolution Imaging Spectroradiometer data for surface reflectance and derived indices.
 - **Sentinel Hub API**: For efficient data retrieval and processing.
 
+# Dataset
+
+## Raw Dataset
+
+- **San Francisco Bay**:
+  - [Water Quality Measurements (1969-2015)](https://www.usgs.gov/publications/water-quality-measurements-san-francisco-bay-us-geological-survey-1969-2015)
+  - [USGS Water Quality Measurements (2016-2021, Ver. 40, March 2023)](https://www.usgs.gov/data/usgs-measurements-water-quality-san-francisco-bay-ca-2016-2021-ver-40-march-2023)
+
+- **Inner Kiel Fjord**:
+  - [Dataset from PANGAEA](https://doi.pangaea.de/10.1594/PANGAEA.930979)
+
+## Processed Dataset (For Training and Testing)
+
+The processed dataset used for the training and testing process can be found in the `/training_dataset` directory.
+
+
 ## Prerequisites
 Ensure you have the following installed:
 - Python 3.8+
@@ -46,8 +62,14 @@ Ensure you have the following installed:
 |   |   |-- decision-tree-sfb.ipynb                   #Decision Tree Model Development (SFB)
 |   |   |-- sfb-random-forest.ipynb                   #Random Forest Model Development (SFB)
 |   |   |-- sfb-stack.ipynb                           #Stacking Model Development (SFB)
-|   |   |-- sfb-xgboost.ipynb                         #XGBoost Model Development (SFB)  
-
+|   |   |-- sfb-xgboost.ipynb                         #XGBoost Model Development (SFB)
+|-- training_dataset/
+|   |-- Inner Kiel Fjord/                             #Training & Testing set for Inner Kiel Fjord
+|   |   |-- training_set.csv
+|   |   |-- testing_set.csv  
+|   |-- SFB/                                          #Training & Testing set for San Francisco Bay
+|   |   |-- training_set.csv 
+|   |   |-- testing_set.csv  
 |-- README.md           # Project documentation
 ```
 ## Model Performance Comparison
