@@ -23,7 +23,6 @@ The aim is to develop a predictive framework that can support decision-making in
 ## Prerequisites
 Ensure you have the following installed:
 - Python 3.8+
-- Required Python libraries listed in `requirements.txt`
 - A valid Sentinel Hub account and API key
 
 ## Directory Structure
